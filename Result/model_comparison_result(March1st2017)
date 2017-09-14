@@ -1,0 +1,42 @@
+LWPR
+	D300F_A100_M40_hw5_1 scaled
+	14.581025(MAE), 1.395771(RMS), 5.5591(worst RMS), 1.101662(L_infty), 0.1724(sec/traj)
+
+GPR
+	vulcan_model(scaled_s3000_hw5_1)
+	17.9393(MAE), 1.6629(RMS), 5.4211(worst RMS), 0.7363(L_infty), 1.2177(sec/traj)
+
+FFNN Vulcan
+	ffnn3_vulcan(hid128_hw20_pw25)_2
+	13.306319(MAE), 1.240084(RMS), 4.350(worst RMS), 0.744477(L_infty), 0.06520(sec/traj)
+
+CNN Vulcan
+	cnn_vulcan(128_6_1_96_4_1_hid128_hw20_pw25)
+	10.282183(MAE), 0.975942(RMS), 4.1338(worst RMS), 0.701267(L_infty), 0.075758(sec/traj)
+
+RNN Vulcan
+	rnnwact_vulcan4_RMScost
+	8.35856(MAE), 0.847086(RMS) 3.7079(worst RMS), 0.568310(L_infty), 0.027720(sec/traj)
+
+
+
+LWPR
+	D850F_A100_M20_hw7_1
+	12.85125(MAE), 1.09746(RMS), 2.2371(worst RMS), 0.58094(L_infty), 0.3913(sec/traj)
+
+GPR
+	magicbot_model(s4000_hw5_1)
+	18.4147(MAE), 1.5898(RMS), 3.6526(worst RMS), 0.8894(L_infty), 1.7397(sec/traj)
+	
+
+FFNN MagicBot
+	ffnn3_magicbot(hid96_RMS0001_decay05)
+	12.305(MAE), 1.0368(RMS), 2.3364(worst RMS), 0.5212(L_infty), 0.07208(sec/traj)
+
+CNN MagicBot
+	cnn_magicbot(96_6_64_6_hid96)_RMScost
+	11.5653(MAE), 0.9837(RMS), 2.2856(worst RMS), 0.5300(L_infty), 0.077968(sec/traj)
+
+RNN MagicBot
+	rnnwact_magicbot
+	10.8579(MAE), 0.9474(RMS), 2.2941(worst RMS), 0.69792(L_infty), 0.03046(sec/traj)

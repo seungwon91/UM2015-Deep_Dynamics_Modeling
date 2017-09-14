@@ -1,0 +1,51 @@
+train(D10F_40_gen10_pr90_dim6)
+	train error=0.074502
+        test error = 28.981556/2.992988/2.576368
+
+train(D05F_40_gen10_pr90_dim6)
+	train error=0.066471
+        test error = 29.401125/2.809074/3.643381
+
+train(D025F_40_gen10_pr90_dim6)
+        train error=0.067885
+        test error = 30.416179/2.870931/1.580342
+
+train(D05F_30_gen10_pr90_dim6)
+        train error=0.066671
+        test error = 45.884159/13.054978/50.752146
+
+train(D05F_20_gen10_pr90_dim6)
+        train error=0.067699
+        test error = 30.181095/2.950033/2.411128
+
+train(D06F_20_gen10_pr90_dim6)
+        train error=0.067200
+        test error = 29.070242/2.752553/1.311274
+
+train(D04F_20_gen10_pr90_dim6)
+        train error=0.070327
+        test error = 30.094805/2.835854/1.540677
+
+train(D04F_30_gen10_pr90_dim6)
+        train error=0.067717
+        test error = 29.619778/2.816348/1.558794
+
+train(D06F_30_gen10_pr90_dim6)
+        train error=0.067408
+        test error = 29.250320/2.806087/2.676413
+
+train(D06F_40_gen10_pr90_dim6)
+        train error=0.066150
+        test error = 28.453758/2.724695/2.203640
+
+train(D04F_50_gen10_pr90_dim6)
+        train error=0.066309
+        test error = 29.066962/2.807707/3.187897
+
+train(D04F_40_gen10_pr90_dim6)
+        train error=0.067745
+        test error = 29.727284/2.904268/2.881732
+
+train(D06F_50_gen10_pr90_dim6)
+        train error=0.078398
+        test error = 30.126289/3.171671/16.287128

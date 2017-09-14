@@ -1,0 +1,38 @@
+IMU: timestamp rotation_speed
+Joystick: timestamp forward left
+Encoder: timestamp deltaLeftWheel deltaRightWheel
+Odometry: timestamp x y theta translation rotation
+Motion State: pose(time, x, y, theta)/velocity(time, linear, angular)
+              /acceleration(time, linear, angular)
+              /rightwheel(time, speed, motor_acceleration)
+              /leftwheel(time, speed, motor_acceleration)
+
+
+-----------------------------------------------------------------------------
+[Data Synchronization]
+IMU : linear interpolation to get samples
+		=> mean of samples during each sampling time
+Joystick : linear interpolation to get samples
+		=> mean of samples during each sampling time
+Encoder : divide delta by duration of timestamp to get velocity
+		=> linear interpolation to get samples
+		=> mean those samples
+Odometry : divide delta(translation/rotation) by duration of timestamp to get linear/angular velocity
+		=> linear interpolation to get samples
+		=> mean those samples
+
+
+------------------------------------------------------------------------------
+[Format of Output Log Structure]
+plotTime
+forwardCommand
+lateralCommand -> leftCommand
+encoderLeftWheelSpeed
+encoderRightWheelSpeed
+encoderLeftWheelSpeedSmoothed
+encoderRightWheelSpeedSmoothed
+encoderLinearVelocity
+encoderAngularVelocity
+encoderLinearVelocitySmoothed
+encoderAngularVelocitySmoothed
+imuAngularVelocity

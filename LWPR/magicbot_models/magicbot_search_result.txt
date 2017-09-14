@@ -1,0 +1,342 @@
+magicbot(D050F_A100_M40_hw3_1)
+	initD = 0.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 3, cmd 1
+	# of receptive fields : 27
+	test result : 15.839(MAE), 1.3349(RMS), 0.68994(L_infty)
+
+magicbot(D150F_A100_M40_hw3_1)
+	initD = 1.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 3, cmd 1
+	# of receptive fields : 110
+	test result : 14.2783(MAE), 1.2167(RMS), 0.7419(L_infty)
+
+magicbot(D250F_A100_M40_hw3_1)
+	initD = 2.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 3, cmd 1
+	# of receptive fields : 195
+	test result : 14.2965(MAE), 1.2276(RMS), 0.7324(L_infty)
+
+magicbot(D350F_A100_M40_hw3_1)
+	initD = 3.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 3, cmd 1
+	# of receptive fields : 324
+	test result : 13.9188(MAE), 1.19198(RMS), 0.61997(L_infty)
+
+magicbot(D450F_A100_M20_hw3_1)
+	initD = 4.5 and fixed
+	initA = 100
+	multiplier : 20
+	hist_window : obs 3, cmd 1
+	# of receptive fields : 266
+	test result : 14.21684(MAE), 1.21977(RMS), 0.62710(L_infty)
+
+magicbot(D450F_A100_M40_hw3_1)
+	initD = 4.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 3, cmd 1
+	# of receptive fields : 452
+	test result : 14.11384(MAE), 1.21152(RMS), 0.62505(L_infty)
+
+magicbot(D550F_A100_M40_hw3_1)
+	initD = 5.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 3, cmd 1
+	# of receptive fields : 582
+	test result : 14.20920(MAE), 1.21924(RMS), 0.64766(L_infty)
+
+magicbot(D650F_A100_M20_hw3_1)
+	initD = 6.5 and fixed
+	initA = 100
+	multiplier : 20
+	hist_window : obs 3, cmd 1
+	# of receptive fields : 446
+	test result : 14.01961(MAE), 1.20197(RMS), 0.63741(L_infty)
+
+magicbot(D850F_A100_M20_hw3_1)
+	initD = 8.5 and fixed
+	initA = 100
+	multiplier : 20
+	hist_window : obs 3, cmd 1
+	# of receptive fields : 634
+	test result : 13.87485(MAE), 1.18793(RMS), 0.57201(L_infty)
+
+
+
+
+
+
+
+magicbot(D050F_A100_M40_hw5_1)
+	initD = 0.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 5, cmd 1
+	# of receptive fields : 41
+	test result : 15.030(MAE), 1.306(RMS), 1.1(L_infty)
+
+magicbot(D150F_A100_M40_hw5_1)
+	initD = 1.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 5, cmd 1
+	# of receptive fields : 162
+	test result : 14.8291(MAE), 1.286(RMS), 0.7213(L_infty)
+
+magicbot(D250F_A100_M40_hw5_1)
+	initD = 2.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 5, cmd 1
+	# of receptive fields : 334
+	test result : 13.9906(MAE), 1.1979(RMS), 0.6200(L_infty)
+
+magicbot(D350F_A100_M40_hw5_1)
+	initD = 3.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 5, cmd 1
+	# of receptive fields : 520
+	test result : 13.6989(MAE), 1.17644(RMS), 0.641621(L_infty)
+
+magicbot(D450F_A100_M20_hw5_1)
+	initD = 4.5 and fixed
+	initA = 100
+	multiplier : 20
+	hist_window : obs 5, cmd 1
+	# of receptive fields : 444
+	test result : 13.70107(MAE), 1.17199(RMS), 0.57508(L_infty)
+
+magicbot(D450F_A100_M40_hw5_1)
+	initD = 4.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 5, cmd 1
+	# of receptive fields : 736
+	test result : 13.393(MAE), 1.14749(RMS), 0.600895(L_infty)
+
+magicbot(D550F_A100_M40_hw5_1)
+	initD = 5.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 5, cmd 1
+	# of receptive fields : 976
+	test result : 13.2498(MAE), 1.13655(RMS), 0.567476(L_infty)
+
+magicbot(D650F_A100_M20_hw5_1)
+	initD = 6.5 and fixed
+	initA = 100
+	multiplier : 20
+	hist_window : obs 5, cmd 1
+	# of receptive fields : 774
+	test result : 13.32206(MAE), 1.14439(RMS), 0.58609(L_infty)
+
+magicbot(D650F_A100_M40_hw5_1)
+	initD = 6.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 5, cmd 1
+	# of receptive fields : 1248
+	test result : 13.1646(MAE), 1.13574(RMS), 0.591369(L_infty)
+
+magicbot(D750F_A100_M40_hw5_1)
+	initD = 7.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 5, cmd 1
+	# of receptive fields : 1493
+	test result : 13.08635(MAE), 1.12430(RMS), 0.56609(L_infty)
+
+magicbot(D850F_A100_M20_hw5_1)
+	initD = 8.5 and fixed
+	initA = 100
+	multiplier : 20
+	hist_window : obs 5, cmd 1
+	# of receptive fields : 1118
+	test result : 13.13122(MAE), 1.13045(RMS), 0.58871(L_infty)
+
+magicbot(D850F_A100_M40_hw5_1)
+	initD = 8.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 5, cmd 1
+	# of receptive fields : 1757
+	test result : 13.07573(MAE), 1.125825(RMS), 0.55295(L_infty)
+
+magicbot(D1000F_A100_M20_hw5_1)
+	initD = 10.0 and fixed
+	initA = 100
+	multiplier : 20
+	hist_window : obs 5, cmd 1
+	# of receptive fields : 1410 
+	test result : 13.1161(MAE), 1.1260(RMS), 0.5514(L_infty)
+
+magicbot(D1200F_A100_M20_hw5_1)
+	initD = 12.0 and fixed
+	initA = 100
+	multiplier : 20
+	hist_window : obs 5, cmd 1
+	# of receptive fields : 1808
+	test result : 12.9072(MAE), 1.11413(RMS), 0.56513(L_infty)
+
+
+
+
+
+magicbot(D050F_A100_M40_hw7_1)
+	initD = 0.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 7, cmd 1
+	# of receptive fields : 45
+	test result : 16.50(MAE), 1.4734(RMS), 1.2144(L_infty)
+
+magicbot(D150F_A100_M40_hw7_1)
+	initD = 1.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 7, cmd 1
+	# of receptive fields : 225
+	test result : 14.2614(MAE), 1.2268(RMS), 0.7054(L_infty)
+
+magicbot(D250F_A100_M40_hw7_1)
+	initD = 2.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 7, cmd 1
+	# of receptive fields : 471
+	test result : 13.7428(MAE), 1.1733(RMS), 0.5839(L_infty)
+
+magicbot(D350F_A100_M40_hw7_1)
+	initD = 3.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 7, cmd 1
+	# of receptive fields : 772
+	test result : 13.56233(MAE), 1.16069(RMS), 0.59606(L_infty)
+
+magicbot(D450F_A100_M20_hw7_1)
+	initD = 4.5 and fixed
+	initA = 100
+	multiplier : 20
+	hist_window : obs 7, cmd 1
+	# of receptive fields : 693
+	test result : 13.37440(MAE), 1.13967(RMS), 0.57204(L_infty)
+
+magicbot(D450F_A100_M40_hw7_1)
+	initD = 4.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 7, cmd 1
+	# of receptive fields : 1125
+	test result : 13.15713(MAE), 1.12549(RMS), 0.56899(L_infty)
+
+magicbot(D550F_A100_M40_hw7_1)
+	initD = 5.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 7, cmd 1
+	# of receptive fields : 1510
+	test result : 12.98263(MAE), 1.10785(RMS), 0.572036(L_infty)
+
+magicbot(D650F_A100_M20_hw7_1)
+	initD = 6.5 and fixed
+	initA = 100
+	multiplier : 20
+	hist_window : obs 7, cmd 1
+	# of receptive fields : 1215
+	test result : 13.14814(MAE), 1.12094(RMS), 0.55648(L_infty)
+
+magicbot(D650F_A100_M40_hw7_1)
+	initD = 6.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 7, cmd 1
+	# of receptive fields : 1916
+	test result : 12.955(MAE), 1.106512(RMS), 0.59775(L_infty)
+
+magicbot(D750F_A100_M40_hw7_1)
+	initD = 7.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 7, cmd 1
+	# of receptive fields : 2347
+	test result : 12.9810(MAE), 1.111341(RMS), 0.57969(L_infty)
+
+magicbot(D850F_A100_M20_hw7_1)
+	initD = 8.5 and fixed
+	initA = 100
+	multiplier : 20
+	hist_window : obs 7, cmd 1
+	# of receptive fields : 1834
+	test result : 12.85125(MAE), 1.09746(RMS), 0.58094(L_infty)
+
+magicbot(D850F_A100_M40_hw7_1)
+	initD = 8.5 and fixed
+	initA = 100
+	multiplier : 40
+	hist_window : obs 7, cmd 1
+	# of receptive fields : 2865
+	test result : 12.88405(MAE), 1.10035(RMS), 0.58529(L_infty)
+
+magicbot(D900F_A100_M20_hw7_1)
+	initD = 9.0 and fixed
+	initA = 100
+	multiplier : 20
+	hist_window : obs 7, cmd 1
+	# of receptive fields : 2031
+	test result : 12.87722(MAE), 1.10189(RMS), 0.59179(L_infty)
+
+magicbot(D1000F_A100_M20_hw7_1)
+	initD = 10.0 and fixed
+	initA = 100
+	multiplier : 20
+	hist_window : obs 7, cmd 1
+	# of receptive fields : 2327
+	test result : 12.8563(MAE), 1.10067(RMS), 0.56818(L_infty)
+
+magicbot(D1200F_A100_M20_hw7_1)
+	initD = 12.0 and fixed
+	initA = 100
+	multiplier : 20
+	hist_window : obs 7, cmd 1
+	# of receptive fields : 3109
+	test result : 13.00168(MAE), 1.11566(RMS), 0.74379(L_infty)
+
+
+
+
+
+
+
+
+
+
+
+
+magicbot(D800F_A100_M20_hw7_1)
+	initD = 8.0 and fixed
+	initA = 100
+	multiplier : 20
+	hist_window : obs 7, cmd 1
+	# of receptive fields : 
+	test result : (MAE), (RMS), (L_infty)
+
+
+
+magicbot()
+	initD =  and fixed
+	initA = 
+	multiplier : 
+	hist_window : obs , cmd 
+	# of receptive fields : 
+	test result : (MAE), (RMS), (L_infty)

@@ -1,0 +1,36 @@
+vulcan(D002F_A100_M20_hw5_1)
+	Left model (1735), Right model (1735)
+	test error : 26.638894/2.495345/1.178884
+
+
+vulcan(D002F_A100_M40_hw5_1)
+	Left model (3262), Right model (3262)
+	test error : 26.61758/2.47772/1.10562
+
+
+vulcan(D005F_A100_M20_hw5_1)
+	Left model (4079), Right model (4079)
+	test error : not tested yet
+
+
+
+
+
+vulcan(D100F_A100_M20_hw5_1)_scaled
+	Left model (102), Right model (102)
+	test error : 15.82351/1.45629/0.68711
+
+vulcan(D300F_A100_M40_hw5_1)_scaled
+	Left model (808), Right model (808)
+	test error : 14.581025/1.395771/1.101662
+
+vulcan(D500F_A100_M40_hw5_1)_scaled 
+	Left model (1720), Right model (1720)
+	test error : 14.423825/1.448304/1.455404
+
+
+
+
+vulcan()
+	Left model (), Right model ()
+	test error : //

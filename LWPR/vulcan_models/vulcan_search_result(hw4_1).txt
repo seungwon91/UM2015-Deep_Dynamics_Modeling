@@ -1,0 +1,46 @@
+train(D04F_10_dim4_1)
+	Left model (1639), Right model (1639)
+	test error : 29.643218/2.824426/1.405192
+
+train(D04F_20_dim4_1)
+	Left model (3056), Right model (3056)
+	test error : 29.400650/2.831062/1.532381
+
+train(D04F_30_dim4_1)
+	Left model (4360), Right model (4360)
+	test error : 29.415603/2.834499/2.055851
+
+train(D04F_40_dim4_1)
+	Left model (5552), Right model (5552)
+	test error : 28.340232/2.726169/2.774098
+
+train(D05F_10_dim4_1)
+	Left model (2023),  Right model (2023)
+	test error : 29.931727/2.824964/1.267668
+
+train(D05F_20_dim4_1)
+	Left model (3644), Right model (3644)
+	test error : 29.819694/2.848447/2.055290
+
+train(D05F_30_dim4_1)
+	Left model (5120), Right model (5120)
+	test error : 29.031278/2.876550/4.147370
+
+train(D05F_40_dim4_1)
+	Left model (6362), Right model (6362)
+	test error : 28.254497/2.730472/3.125162
+
+train(D06F_10_dim4_1)
+
+
+train(D06F_20_dim4_1)
+	Left model (4409), Right model (4409)
+	test error : 28.766755/2.762333/1.454432
+
+train(D06F_30_dim4_1)
+	Left model (6178), Right model (6178)
+	test error : 27.989161/2.687801/3.936949
+
+train(D06F_40_dim4_1)
+	Left model (7833), Right model (7833)
+	test error : 28.146309/2.733695/2.114262
